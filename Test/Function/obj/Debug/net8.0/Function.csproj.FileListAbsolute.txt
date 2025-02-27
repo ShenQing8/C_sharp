@@ -1,0 +1,14 @@
+D:\github Code\C_sharp\Test\Function\bin\Debug\net8.0\Function.exe
+D:\github Code\C_sharp\Test\Function\bin\Debug\net8.0\Function.deps.json
+D:\github Code\C_sharp\Test\Function\bin\Debug\net8.0\Function.runtimeconfig.json
+D:\github Code\C_sharp\Test\Function\bin\Debug\net8.0\Function.dll
+D:\github Code\C_sharp\Test\Function\bin\Debug\net8.0\Function.pdb
+D:\github Code\C_sharp\Test\Function\obj\Debug\net8.0\Function.GeneratedMSBuildEditorConfig.editorconfig
+D:\github Code\C_sharp\Test\Function\obj\Debug\net8.0\Function.AssemblyInfoInputs.cache
+D:\github Code\C_sharp\Test\Function\obj\Debug\net8.0\Function.AssemblyInfo.cs
+D:\github Code\C_sharp\Test\Function\obj\Debug\net8.0\Function.csproj.CoreCompileInputs.cache
+D:\github Code\C_sharp\Test\Function\obj\Debug\net8.0\Function.dll
+D:\github Code\C_sharp\Test\Function\obj\Debug\net8.0\refint\Function.dll
+D:\github Code\C_sharp\Test\Function\obj\Debug\net8.0\Function.pdb
+D:\github Code\C_sharp\Test\Function\obj\Debug\net8.0\Function.genruntimeconfig.cache
+D:\github Code\C_sharp\Test\Function\obj\Debug\net8.0\ref\Function.dll

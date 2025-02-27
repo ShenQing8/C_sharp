@@ -1,0 +1,14 @@
+D:\github Code\C_sharp\Test\Test\bin\Debug\net8.0\TestArr.exe
+D:\github Code\C_sharp\Test\Test\bin\Debug\net8.0\TestArr.deps.json
+D:\github Code\C_sharp\Test\Test\bin\Debug\net8.0\TestArr.runtimeconfig.json
+D:\github Code\C_sharp\Test\Test\bin\Debug\net8.0\TestArr.dll
+D:\github Code\C_sharp\Test\Test\bin\Debug\net8.0\TestArr.pdb
+D:\github Code\C_sharp\Test\Test\obj\Debug\net8.0\TestArr.GeneratedMSBuildEditorConfig.editorconfig
+D:\github Code\C_sharp\Test\Test\obj\Debug\net8.0\TestArr.AssemblyInfoInputs.cache
+D:\github Code\C_sharp\Test\Test\obj\Debug\net8.0\TestArr.AssemblyInfo.cs
+D:\github Code\C_sharp\Test\Test\obj\Debug\net8.0\TestArr.csproj.CoreCompileInputs.cache
+D:\github Code\C_sharp\Test\Test\obj\Debug\net8.0\TestArr.dll
+D:\github Code\C_sharp\Test\Test\obj\Debug\net8.0\refint\TestArr.dll
+D:\github Code\C_sharp\Test\Test\obj\Debug\net8.0\TestArr.pdb
+D:\github Code\C_sharp\Test\Test\obj\Debug\net8.0\TestArr.genruntimeconfig.cache
+D:\github Code\C_sharp\Test\Test\obj\Debug\net8.0\ref\TestArr.dll

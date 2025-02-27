@@ -1,0 +1,14 @@
+D:\github Code\C_sharp\Test\TestEnum\bin\Debug\net8.0\TestEnum.exe
+D:\github Code\C_sharp\Test\TestEnum\bin\Debug\net8.0\TestEnum.deps.json
+D:\github Code\C_sharp\Test\TestEnum\bin\Debug\net8.0\TestEnum.runtimeconfig.json
+D:\github Code\C_sharp\Test\TestEnum\bin\Debug\net8.0\TestEnum.dll
+D:\github Code\C_sharp\Test\TestEnum\bin\Debug\net8.0\TestEnum.pdb
+D:\github Code\C_sharp\Test\TestEnum\obj\Debug\net8.0\TestEnum.GeneratedMSBuildEditorConfig.editorconfig
+D:\github Code\C_sharp\Test\TestEnum\obj\Debug\net8.0\TestEnum.AssemblyInfoInputs.cache
+D:\github Code\C_sharp\Test\TestEnum\obj\Debug\net8.0\TestEnum.AssemblyInfo.cs
+D:\github Code\C_sharp\Test\TestEnum\obj\Debug\net8.0\TestEnum.csproj.CoreCompileInputs.cache
+D:\github Code\C_sharp\Test\TestEnum\obj\Debug\net8.0\TestEnum.dll
+D:\github Code\C_sharp\Test\TestEnum\obj\Debug\net8.0\refint\TestEnum.dll
+D:\github Code\C_sharp\Test\TestEnum\obj\Debug\net8.0\TestEnum.pdb
+D:\github Code\C_sharp\Test\TestEnum\obj\Debug\net8.0\TestEnum.genruntimeconfig.cache
+D:\github Code\C_sharp\Test\TestEnum\obj\Debug\net8.0\ref\TestEnum.dll

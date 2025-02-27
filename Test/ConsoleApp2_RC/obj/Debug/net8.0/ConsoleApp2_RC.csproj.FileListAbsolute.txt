@@ -1,0 +1,14 @@
+D:\github Code\C_sharp\Test\ConsoleApp2_RC\bin\Debug\net8.0\ConsoleApp2_RC.exe
+D:\github Code\C_sharp\Test\ConsoleApp2_RC\bin\Debug\net8.0\ConsoleApp2_RC.deps.json
+D:\github Code\C_sharp\Test\ConsoleApp2_RC\bin\Debug\net8.0\ConsoleApp2_RC.runtimeconfig.json
+D:\github Code\C_sharp\Test\ConsoleApp2_RC\bin\Debug\net8.0\ConsoleApp2_RC.dll
+D:\github Code\C_sharp\Test\ConsoleApp2_RC\bin\Debug\net8.0\ConsoleApp2_RC.pdb
+D:\github Code\C_sharp\Test\ConsoleApp2_RC\obj\Debug\net8.0\ConsoleApp2_RC.GeneratedMSBuildEditorConfig.editorconfig
+D:\github Code\C_sharp\Test\ConsoleApp2_RC\obj\Debug\net8.0\ConsoleApp2_RC.AssemblyInfoInputs.cache
+D:\github Code\C_sharp\Test\ConsoleApp2_RC\obj\Debug\net8.0\ConsoleApp2_RC.AssemblyInfo.cs
+D:\github Code\C_sharp\Test\ConsoleApp2_RC\obj\Debug\net8.0\ConsoleApp2_RC.csproj.CoreCompileInputs.cache
+D:\github Code\C_sharp\Test\ConsoleApp2_RC\obj\Debug\net8.0\ConsoleApp2_RC.dll
+D:\github Code\C_sharp\Test\ConsoleApp2_RC\obj\Debug\net8.0\refint\ConsoleApp2_RC.dll
+D:\github Code\C_sharp\Test\ConsoleApp2_RC\obj\Debug\net8.0\ConsoleApp2_RC.pdb
+D:\github Code\C_sharp\Test\ConsoleApp2_RC\obj\Debug\net8.0\ConsoleApp2_RC.genruntimeconfig.cache
+D:\github Code\C_sharp\Test\ConsoleApp2_RC\obj\Debug\net8.0\ref\ConsoleApp2_RC.dll

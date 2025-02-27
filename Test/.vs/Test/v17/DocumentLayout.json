@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\github Code\\C_sharp\\Test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C186B728-842A-4C6D-9EA6-42017D0B4A49}|ConsoleApp2_RC\\ConsoleApp2_RC.csproj|d:\\github code\\c_sharp\\test\\consoleapp2_rc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C186B728-842A-4C6D-9EA6-42017D0B4A49}|ConsoleApp2_RC\\ConsoleApp2_RC.csproj|solutionrelative:consoleapp2_rc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F17F661-365D-403D-AAE0-619CEFEADF61}|ConsoleApp2\\ConsoleApp2.csproj|d:\\github code\\c_sharp\\test\\consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F17F661-365D-403D-AAE0-619CEFEADF61}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00C13E-69D5-4C04-B4CE-EA0D89030679}|Function\\Function.csproj|d:\\github code\\c_sharp\\test\\function\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA00C13E-69D5-4C04-B4CE-EA0D89030679}|Function\\Function.csproj|solutionrelative:function\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67D74C25-E5BF-4514-8F86-FDBCEA191192}|ConsoleApp1\\ConsoleApp1.csproj|d:\\github code\\c_sharp\\test\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67D74C25-E5BF-4514-8F86-FDBCEA191192}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\ConsoleApp2\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Program.cs",
+              "ToolTip": "D:\\github Code\\C_sharp\\Test\\ConsoleApp2\\Program.cs",
+              "RelativeToolTip": "ConsoleApp2\\Program.cs",
+              "ViewState": "AgIAAAcBAAAAAAAAAAAswG0BAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T09:22:31.278Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\ConsoleApp2_RC\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2_RC\\Program.cs",
+              "ToolTip": "D:\\github Code\\C_sharp\\Test\\ConsoleApp2_RC\\Program.cs",
+              "RelativeToolTip": "ConsoleApp2_RC\\Program.cs",
+              "ViewState": "AgIAAPUBAAAAAAAAAAAqwAMBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T09:30:54.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "D:\\github Code\\C_sharp\\Test\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgBAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T09:23:18.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\Function\\Program.cs",
+              "RelativeDocumentMoniker": "Function\\Program.cs",
+              "ToolTip": "D:\\github Code\\C_sharp\\Test\\Function\\Program.cs",
+              "RelativeToolTip": "Function\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T09:27:02.09Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
