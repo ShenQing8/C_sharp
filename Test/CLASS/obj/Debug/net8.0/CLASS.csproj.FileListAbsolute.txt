@@ -1,0 +1,15 @@
+D:\github Code\C_sharp\Test\CLASS\bin\Debug\net8.0\CLASS.exe
+D:\github Code\C_sharp\Test\CLASS\bin\Debug\net8.0\CLASS.deps.json
+D:\github Code\C_sharp\Test\CLASS\bin\Debug\net8.0\CLASS.runtimeconfig.json
+D:\github Code\C_sharp\Test\CLASS\bin\Debug\net8.0\CLASS.dll
+D:\github Code\C_sharp\Test\CLASS\bin\Debug\net8.0\CLASS.pdb
+D:\github Code\C_sharp\Test\CLASS\obj\Debug\net8.0\CLASS.GeneratedMSBuildEditorConfig.editorconfig
+D:\github Code\C_sharp\Test\CLASS\obj\Debug\net8.0\CLASS.AssemblyInfoInputs.cache
+D:\github Code\C_sharp\Test\CLASS\obj\Debug\net8.0\CLASS.AssemblyInfo.cs
+D:\github Code\C_sharp\Test\CLASS\obj\Debug\net8.0\CLASS.csproj.CoreCompileInputs.cache
+D:\github Code\C_sharp\Test\CLASS\obj\Debug\net8.0\CLASS.sourcelink.json
+D:\github Code\C_sharp\Test\CLASS\obj\Debug\net8.0\CLASS.dll
+D:\github Code\C_sharp\Test\CLASS\obj\Debug\net8.0\refint\CLASS.dll
+D:\github Code\C_sharp\Test\CLASS\obj\Debug\net8.0\CLASS.pdb
+D:\github Code\C_sharp\Test\CLASS\obj\Debug\net8.0\CLASS.genruntimeconfig.cache
+D:\github Code\C_sharp\Test\CLASS\obj\Debug\net8.0\ref\CLASS.dll
