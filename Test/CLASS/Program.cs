@@ -144,7 +144,7 @@ namespace CLASS
         }
     }
 
-    /*继承*/
+    #region 继承
     class Worker
     {
         public string kind;
@@ -182,6 +182,104 @@ namespace CLASS
 
         }
     }
+    #endregion
+
+    #region 多态
+    class RealDuck
+    {
+        public virtual void Voice()
+        {
+            Console.WriteLine("嘎嘎叫~");
+        }
+    }
+    class WoodDuck : RealDuck
+    {
+        public override void Voice()
+        {
+            Console.WriteLine("吱吱叫~");
+        }
+    }
+    class PiDuck : RealDuck
+    {
+        public override void Voice()
+        {
+            Console.WriteLine("嘟嘟叫~");
+        }
+    }
+    #endregion
+
+    #region 接口
+    interface ICheckUp
+    {
+        void CheckUp();
+    }
+    class People : ICheckUp
+    {
+        public void CheckUp()
+        {
+            Console.WriteLine("人到派出所登记");
+        }
+    }
+    class Car : ICheckUp
+    {
+        public void CheckUp()
+        {
+            Console.WriteLine("车到车管所登记");
+        }
+    }
+    class House : ICheckUp
+    {
+        public void CheckUp()
+        {
+            Console.WriteLine("房子到房管局登记");
+        }
+    }
+    // 飞、游泳、走
+    interface IFly
+    {
+        void Fly();
+    }
+    interface ISwim
+    {
+        void Swim();
+    }
+    interface IWalk
+    {
+        void Walk();
+    }
+    class LittleBird : IFly, IWalk
+    {
+        public void Fly()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Walk()
+        {
+            throw new NotImplementedException();
+        }
+    }
+    class TuoNiao : IWalk
+    {
+        public void Walk()
+        {
+            throw new NotImplementedException();
+        }
+    }
+    class QiE : ISwim, IWalk
+    {
+        public void Swim()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Walk()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    #endregion
 
     internal class Program
     {
@@ -211,12 +309,25 @@ namespace CLASS
             //int i = 12;
             //Console.WriteLine(i.GetSqure());
 
-            Coder coder = new Coder("程序员", "敲代码");
-            Cehua cehua = new Cehua("策划", "策划东西");
-            Art art = new Art("美术", "画画");
-            coder.Working();
-            cehua.Working();
-            art.Working();
+            //Coder coder = new Coder("程序员", "敲代码");
+            //Cehua cehua = new Cehua("策划", "策划东西");
+            //Art art = new Art("美术", "画画");
+            //coder.Working();
+            //cehua.Working();
+            //art.Working();
+
+            //RealDuck duck1 = new WoodDuck();
+            //RealDuck duck2 = new PiDuck();
+            //duck1.Voice();
+            //duck2.Voice();
+
+            //ICheckUp people = new People();
+            //ICheckUp car = new Car();
+            //ICheckUp house = new House();
+            //people.CheckUp();
+            //car.CheckUp();
+            //house.CheckUp();
+            //
 
         }
     }
