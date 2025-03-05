@@ -278,6 +278,53 @@ namespace CLASS
             throw new NotImplementedException();
         }
     }
+    // 模拟电脑传输数据
+    interface IUSB
+    {
+
+    }
+
+    interface IMemory : IUSB
+    {
+        void memory();
+    }
+    interface IDisplay : IUSB
+    {
+        void display();
+    }
+    class MoveMemoory : IMemory
+    {
+        public void memory()
+        {
+            Console.WriteLine("移动硬盘存储");
+        }
+    }
+    class UPan : IMemory
+    {
+        public void memory()
+        {
+            Console.WriteLine("U盘存储");
+        }
+    }
+    class Mp3 : IDisplay
+    {
+        public void display()
+        {
+            Console.WriteLine("Mp3播放");
+        }
+    }
+    class Computer
+    {
+        public IUSB equip;
+        public Computer()
+        {
+
+        }
+        public Computer(IUSB equip)
+        {
+            this.equip = equip;
+        }
+    }
 
     #endregion
 
@@ -328,6 +375,11 @@ namespace CLASS
             //car.CheckUp();
             //house.CheckUp();
             //
+
+            Computer computer = new Computer(new MoveMemoory());
+            (computer.equip as MoveMemoory).memory();
+            computer.equip = new Mp3();
+            (computer.equip as Mp3).display();
 
         }
     }
