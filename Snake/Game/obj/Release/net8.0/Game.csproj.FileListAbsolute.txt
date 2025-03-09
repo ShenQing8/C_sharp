@@ -1,0 +1,15 @@
+D:\github Code\C_sharp\Snake\Game\bin\Release\net8.0\Game.exe
+D:\github Code\C_sharp\Snake\Game\bin\Release\net8.0\Game.deps.json
+D:\github Code\C_sharp\Snake\Game\bin\Release\net8.0\Game.runtimeconfig.json
+D:\github Code\C_sharp\Snake\Game\bin\Release\net8.0\Game.dll
+D:\github Code\C_sharp\Snake\Game\bin\Release\net8.0\Game.pdb
+D:\github Code\C_sharp\Snake\Game\obj\Release\net8.0\Game.GeneratedMSBuildEditorConfig.editorconfig
+D:\github Code\C_sharp\Snake\Game\obj\Release\net8.0\Game.AssemblyInfoInputs.cache
+D:\github Code\C_sharp\Snake\Game\obj\Release\net8.0\Game.AssemblyInfo.cs
+D:\github Code\C_sharp\Snake\Game\obj\Release\net8.0\Game.csproj.CoreCompileInputs.cache
+D:\github Code\C_sharp\Snake\Game\obj\Release\net8.0\Game.sourcelink.json
+D:\github Code\C_sharp\Snake\Game\obj\Release\net8.0\Game.dll
+D:\github Code\C_sharp\Snake\Game\obj\Release\net8.0\refint\Game.dll
+D:\github Code\C_sharp\Snake\Game\obj\Release\net8.0\Game.pdb
+D:\github Code\C_sharp\Snake\Game\obj\Release\net8.0\Game.genruntimeconfig.cache
+D:\github Code\C_sharp\Snake\Game\obj\Release\net8.0\ref\Game.dll
