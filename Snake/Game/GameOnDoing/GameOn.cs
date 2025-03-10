@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Game
 {
-    class GameOn
+    class GameOn : BaseBeginAndEndSences
     {
         public void GameWorking()
         {
@@ -83,7 +83,7 @@ namespace Game
                         continue;
                 }
                 game_object.Refresh(movement);
-                Thread.Sleep(200);// 蛇每0.2秒移动一次
+                Thread.Sleep(150);// 蛇每0.2秒移动一次
             }
 
         }

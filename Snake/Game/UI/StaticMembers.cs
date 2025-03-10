@@ -84,10 +84,14 @@ namespace Game
 
     class StaticMembers
     {
+        // 窗口宽高
         static public int LENGTH = 90;
         static public int WIDTH = 25;
         // 蛇的初始位置
         public static int BirthX = 40;
         public static int BirthY = 10;
+        // 游戏场景基类
+        public static BaseBeginAndEndSences baseSences = new Program();
+        public static GameOn gameon = new GameOn();
     }
 }

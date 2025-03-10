@@ -76,11 +76,11 @@ namespace Game
             {
                 Console.SetCursorPosition(i, 0);
                 Console.Write((char)E_GridShap.Wall);
-                Console.SetCursorPosition(i, WIDTH - 1);
+                Console.SetCursorPosition(i, WIDTH - 2);
                 Console.Write((char)E_GridShap.Wall);
             }
             // 竖墙
-            for (int i = 0; i < WIDTH; i++)
+            for (int i = 0; i < WIDTH - 1; i++)
             {
                 Console.SetCursorPosition(0, i);
                 Console.Write((char)E_GridShap.Wall);
@@ -93,7 +93,7 @@ namespace Game
     // 蛇
     class Snake : IDisplay, IMove
     {
-        public Grid[] body = new Grid[(LENGTH / 2 - 2) * (WIDTH - 2)];
+        public Grid[] body = new Grid[(LENGTH / 2 - 2) * (WIDTH - 3)];
         public int length = 0;
 
         // 构造函数
@@ -128,53 +128,49 @@ namespace Game
         public void IsDeath()
         {
             // 撞墙死
-            if (body[0].vector.x < 2 || body[0].vector.x >= LENGTH - 2 || body[0].vector.y < 1 || body[0].vector.y >= WIDTH - 1)
-            {
-                Program program = new Program();
-                program.GameOpenEnd(E_GameSences.End);
-            }
+            if (body[0].vector.x < 2 || body[0].vector.x >= LENGTH - 2 || body[0].vector.y < 1 || body[0].vector.y >= WIDTH - 2)
+                (baseSences as Program).GameOpenEnd(E_GameSences.End);
             // 撞自己身体死
             for (int i = 4; i < length; ++i)
             {
                 if (body[0].vector == body[i].vector)
-                {
-                    Program program = new Program();
-                    program.GameOpenEnd(E_GameSences.End);
-                }
+                    (baseSences as Program).GameOpenEnd(E_GameSences.End);
+            }
+        }
+
+        // 判断胜利
+        public void IsVictory()
+        {
+            if (body[body.Length - 1] != null)
+            {
+                Console.Clear();
+                Console.SetCursorPosition(LENGTH / 2, WIDTH / 2);
+                Console.ForegroundColor = ConsoleColor.Magenta;
+                Console.WriteLine("恭喜你！！！胜利了！！！");
+                Console.ReadKey(true);
+                (baseSences as Program).GameOpenEnd(E_GameSences.End);
             }
         }
 
         // 移动
         public void Move(E_Move move)
         {
+            for (int i = length - 1; i > 0; --i)
+            {
+                body[i].vector = body[i - 1].vector;
+            }
             switch (move)
             {
                 case E_Move.UP:
-                    for (int i = length - 1; i > 0; --i)
-                    {
-                        body[i].vector = body[i - 1].vector;
-                    }
                     --body[0].vector.y;
                     break;
                 case E_Move.DOWN:
-                    for (int i = length - 1; i > 0; --i)
-                    {
-                        body[i].vector = body[i - 1].vector;
-                    }
                     ++body[0].vector.y;
                     break;
                 case E_Move.LEFT:
-                    for (int i = length - 1; i > 0; --i)
-                    {
-                        body[i].vector = body[i - 1].vector;
-                    }
                     body[0].vector.x -= 2;
                     break;
                 case E_Move.RIGHT:
-                    for (int i = length - 1; i > 0; --i)
-                    {
-                        body[i].vector = body[i - 1].vector;
-                    }
                     body[0].vector.x += 2;
                     break;
             }
@@ -199,7 +195,7 @@ namespace Game
         }
     }
 
-    //食物
+    // 食物
     class Food:IDisplay
     {
         public Grid food;
@@ -213,11 +209,12 @@ namespace Game
         public void FreshFood(Snake snake)
         {
             Random random = new Random();
-            bool isFoodinSnake = false;
             while (true)
             {
                 food.vector.x = random.Next(1, LENGTH / 2 - 2) * 2;
-                food.vector.y = random.Next(1, WIDTH - 1);
+                food.vector.y = random.Next(1, WIDTH - 2);
+                bool isFoodinSnake = false;
+
                 for (int i = 0; i < snake.length; ++i)
                 {
                     if (food.vector == snake.body[i].vector)
@@ -266,6 +263,7 @@ namespace Game
             }
             snake.Move(movement);
             snake.IsDeath();
+            snake.IsVictory();
             snake.Display();
         }
     }

@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace Game
 {
-    // 帧更新
-    interface IRefresh
+    class BaseBeginAndEndSences
     {
-        void Refresh();
-        void Refresh(E_Move movement);
     }
 }

@@ -3,7 +3,7 @@ using static Game.StaticMembers;
 
 namespace Game
 {
-    internal class Program
+    internal class Program : BaseBeginAndEndSences
     {
         public void GameOpenEnd(E_GameSences sences)
         {
@@ -50,15 +50,9 @@ namespace Game
                     case '\r':
                         // 开始游戏
                         if (m && sences == E_GameSences.Open)
-                        {
-                            GameOn gameOn = new GameOn();
-                            gameOn.GameWorking();
-                        }
+                            gameon.GameWorking();
                         else if (m && sences == E_GameSences.End)
-                        {
-                            Program program = new Program();
-                            program.GameOpenEnd(E_GameSences.Open);
-                        }
+                            (baseSences as Program).GameOpenEnd(E_GameSences.Open);
                         else
                             Environment.Exit(0);
                         break;
@@ -80,8 +74,7 @@ namespace Game
             Console.CursorVisible = false;
 
             // 进入游戏主界面
-            Program program = new Program();
-            program.GameOpenEnd(E_GameSences.Open);
+            (baseSences as Program).GameOpenEnd(E_GameSences.Open);
         }
     }
 }
