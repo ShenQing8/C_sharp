@@ -1,0 +1,15 @@
+D:\github Code\C_sharp\Test\Static\bin\Debug\net8.0\Stack.exe
+D:\github Code\C_sharp\Test\Static\bin\Debug\net8.0\Stack.deps.json
+D:\github Code\C_sharp\Test\Static\bin\Debug\net8.0\Stack.runtimeconfig.json
+D:\github Code\C_sharp\Test\Static\bin\Debug\net8.0\Stack.dll
+D:\github Code\C_sharp\Test\Static\bin\Debug\net8.0\Stack.pdb
+D:\github Code\C_sharp\Test\Static\obj\Debug\net8.0\Stack.GeneratedMSBuildEditorConfig.editorconfig
+D:\github Code\C_sharp\Test\Static\obj\Debug\net8.0\Stack.AssemblyInfoInputs.cache
+D:\github Code\C_sharp\Test\Static\obj\Debug\net8.0\Stack.AssemblyInfo.cs
+D:\github Code\C_sharp\Test\Static\obj\Debug\net8.0\Stack.csproj.CoreCompileInputs.cache
+D:\github Code\C_sharp\Test\Static\obj\Debug\net8.0\Stack.sourcelink.json
+D:\github Code\C_sharp\Test\Static\obj\Debug\net8.0\Stack.dll
+D:\github Code\C_sharp\Test\Static\obj\Debug\net8.0\refint\Stack.dll
+D:\github Code\C_sharp\Test\Static\obj\Debug\net8.0\Stack.pdb
+D:\github Code\C_sharp\Test\Static\obj\Debug\net8.0\Stack.genruntimeconfig.cache
+D:\github Code\C_sharp\Test\Static\obj\Debug\net8.0\ref\Stack.dll
