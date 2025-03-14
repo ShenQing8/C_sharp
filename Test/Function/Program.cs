@@ -29,10 +29,10 @@ namespace Function
         {
             // TestButtn();
             Rd_test();
-            switch (Console.ReadKey(true).Key)
-            {
-                ‖
-            }
+            //switch (Console.ReadKey(true).Key)
+            //{
+            //    ‖
+            //}
 
         }
     }

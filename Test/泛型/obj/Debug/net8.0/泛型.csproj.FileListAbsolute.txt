@@ -1,0 +1,15 @@
+D:\github Code\C_sharp\Test\泛型\bin\Debug\net8.0\泛型.exe
+D:\github Code\C_sharp\Test\泛型\bin\Debug\net8.0\泛型.deps.json
+D:\github Code\C_sharp\Test\泛型\bin\Debug\net8.0\泛型.runtimeconfig.json
+D:\github Code\C_sharp\Test\泛型\bin\Debug\net8.0\泛型.dll
+D:\github Code\C_sharp\Test\泛型\bin\Debug\net8.0\泛型.pdb
+D:\github Code\C_sharp\Test\泛型\obj\Debug\net8.0\泛型.GeneratedMSBuildEditorConfig.editorconfig
+D:\github Code\C_sharp\Test\泛型\obj\Debug\net8.0\泛型.AssemblyInfoInputs.cache
+D:\github Code\C_sharp\Test\泛型\obj\Debug\net8.0\泛型.AssemblyInfo.cs
+D:\github Code\C_sharp\Test\泛型\obj\Debug\net8.0\泛型.csproj.CoreCompileInputs.cache
+D:\github Code\C_sharp\Test\泛型\obj\Debug\net8.0\泛型.sourcelink.json
+D:\github Code\C_sharp\Test\泛型\obj\Debug\net8.0\泛型.dll
+D:\github Code\C_sharp\Test\泛型\obj\Debug\net8.0\refint\泛型.dll
+D:\github Code\C_sharp\Test\泛型\obj\Debug\net8.0\泛型.pdb
+D:\github Code\C_sharp\Test\泛型\obj\Debug\net8.0\泛型.genruntimeconfig.cache
+D:\github Code\C_sharp\Test\泛型\obj\Debug\net8.0\ref\泛型.dll

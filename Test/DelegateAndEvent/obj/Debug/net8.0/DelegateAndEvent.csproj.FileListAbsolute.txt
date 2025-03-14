@@ -1,0 +1,15 @@
+D:\github Code\C_sharp\Test\DelegateAndEvent\bin\Debug\net8.0\DelegateAndEvent.exe
+D:\github Code\C_sharp\Test\DelegateAndEvent\bin\Debug\net8.0\DelegateAndEvent.deps.json
+D:\github Code\C_sharp\Test\DelegateAndEvent\bin\Debug\net8.0\DelegateAndEvent.runtimeconfig.json
+D:\github Code\C_sharp\Test\DelegateAndEvent\bin\Debug\net8.0\DelegateAndEvent.dll
+D:\github Code\C_sharp\Test\DelegateAndEvent\bin\Debug\net8.0\DelegateAndEvent.pdb
+D:\github Code\C_sharp\Test\DelegateAndEvent\obj\Debug\net8.0\DelegateAndEvent.GeneratedMSBuildEditorConfig.editorconfig
+D:\github Code\C_sharp\Test\DelegateAndEvent\obj\Debug\net8.0\DelegateAndEvent.AssemblyInfoInputs.cache
+D:\github Code\C_sharp\Test\DelegateAndEvent\obj\Debug\net8.0\DelegateAndEvent.AssemblyInfo.cs
+D:\github Code\C_sharp\Test\DelegateAndEvent\obj\Debug\net8.0\DelegateAndEvent.csproj.CoreCompileInputs.cache
+D:\github Code\C_sharp\Test\DelegateAndEvent\obj\Debug\net8.0\DelegateAndEvent.sourcelink.json
+D:\github Code\C_sharp\Test\DelegateAndEvent\obj\Debug\net8.0\DelegateAndEvent.dll
+D:\github Code\C_sharp\Test\DelegateAndEvent\obj\Debug\net8.0\refint\DelegateAndEvent.dll
+D:\github Code\C_sharp\Test\DelegateAndEvent\obj\Debug\net8.0\DelegateAndEvent.pdb
+D:\github Code\C_sharp\Test\DelegateAndEvent\obj\Debug\net8.0\DelegateAndEvent.genruntimeconfig.cache
+D:\github Code\C_sharp\Test\DelegateAndEvent\obj\Debug\net8.0\ref\DelegateAndEvent.dll

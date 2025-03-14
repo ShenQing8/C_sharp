@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLASS", "CLASS\CLASS.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STACK", "Static\STACK.csproj", "{C7B36C85-0A86-4B76-BA3D-285C7B793E7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "泛型", "泛型\泛型.csproj", "{D36C90A9-F228-48C4-9BB0-A3FD167F336E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateAndEvent", "DelegateAndEvent\DelegateAndEvent.csproj", "{FC35E11E-58A3-4350-A7D2-8E28DC948DA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{C7B36C85-0A86-4B76-BA3D-285C7B793E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7B36C85-0A86-4B76-BA3D-285C7B793E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7B36C85-0A86-4B76-BA3D-285C7B793E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D36C90A9-F228-48C4-9BB0-A3FD167F336E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D36C90A9-F228-48C4-9BB0-A3FD167F336E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D36C90A9-F228-48C4-9BB0-A3FD167F336E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D36C90A9-F228-48C4-9BB0-A3FD167F336E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC35E11E-58A3-4350-A7D2-8E28DC948DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC35E11E-58A3-4350-A7D2-8E28DC948DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC35E11E-58A3-4350-A7D2-8E28DC948DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC35E11E-58A3-4350-A7D2-8E28DC948DA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

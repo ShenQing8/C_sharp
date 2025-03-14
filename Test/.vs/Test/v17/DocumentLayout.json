@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\github Code\\C_sharp\\Test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7B36C85-0A86-4B76-BA3D-285C7B793E7A}|Static\\STACK.csproj|d:\\github code\\c_sharp\\test\\static\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7B36C85-0A86-4B76-BA3D-285C7B793E7A}|Static\\STACK.csproj|solutionrelative:static\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC35E11E-58A3-4350-A7D2-8E28DC948DA7}|DelegateAndEvent\\DelegateAndEvent.csproj|d:\\github code\\c_sharp\\test\\delegateandevent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC35E11E-58A3-4350-A7D2-8E28DC948DA7}|DelegateAndEvent\\DelegateAndEvent.csproj|solutionrelative:delegateandevent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{216C8D07-3F1D-4409-996E-84307121CF14}|CLASS\\CLASS.csproj|d:\\github code\\c_sharp\\test\\class\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{216C8D07-3F1D-4409-996E-84307121CF14}|CLASS\\CLASS.csproj|solutionrelative:class\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C186B728-842A-4C6D-9EA6-42017D0B4A49}|ConsoleApp2_RC\\ConsoleApp2_RC.csproj|d:\\github code\\c_sharp\\test\\consoleapp2_rc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C186B728-842A-4C6D-9EA6-42017D0B4A49}|ConsoleApp2_RC\\ConsoleApp2_RC.csproj|solutionrelative:consoleapp2_rc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F17F661-365D-403D-AAE0-619CEFEADF61}|ConsoleApp2\\ConsoleApp2.csproj|d:\\github code\\c_sharp\\test\\consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F17F661-365D-403D-AAE0-619CEFEADF61}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D36C90A9-F228-48C4-9BB0-A3FD167F336E}|\u6CDB\u578B\\\u6CDB\u578B.csproj|d:\\github code\\c_sharp\\test\\\u6CDB\u578B\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36C90A9-F228-48C4-9BB0-A3FD167F336E}|\u6CDB\u578B\\\u6CDB\u578B.csproj|solutionrelative:\u6CDB\u578B\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,50 +24,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\Static\\Program.cs",
-              "RelativeDocumentMoniker": "Static\\Program.cs",
-              "ToolTip": "D:\\github Code\\C_sharp\\Test\\Static\\Program.cs",
-              "RelativeToolTip": "Static\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\DelegateAndEvent\\Program.cs",
+              "RelativeDocumentMoniker": "DelegateAndEvent\\Program.cs",
+              "ToolTip": "D:\\github Code\\C_sharp\\Test\\DelegateAndEvent\\Program.cs",
+              "RelativeToolTip": "DelegateAndEvent\\Program.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAADwv14AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T09:36:28.021Z",
+              "WhenOpened": "2025-03-13T11:43:31.62Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\ConsoleApp2_RC\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleApp2_RC\\Program.cs",
-              "ToolTip": "D:\\github Code\\C_sharp\\Test\\ConsoleApp2_RC\\Program.cs",
-              "RelativeToolTip": "ConsoleApp2_RC\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T09:30:05.428Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\ConsoleApp2\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleApp2\\Program.cs",
-              "ToolTip": "D:\\github Code\\C_sharp\\Test\\ConsoleApp2\\Program.cs",
-              "RelativeToolTip": "ConsoleApp2\\Program.cs",
-              "ViewState": "AgIAADYBAAAAAAAAAADwvxMCAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T09:29:41.758Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\CLASS\\Program.cs",
-              "RelativeDocumentMoniker": "CLASS\\Program.cs",
-              "ToolTip": "D:\\github Code\\C_sharp\\Test\\CLASS\\Program.cs",
-              "RelativeToolTip": "CLASS\\Program.cs",
-              "ViewState": "AgIAADoBAAAAAAAAAAAQwE0BAAAIAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\\u6CDB\u578B\\Program.cs",
+              "RelativeDocumentMoniker": "\u6CDB\u578B\\Program.cs",
+              "ToolTip": "D:\\github Code\\C_sharp\\Test\\\u6CDB\u578B\\Program.cs",
+              "RelativeToolTip": "\u6CDB\u578B\\Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAADwv0sAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T08:02:06.767Z"
+              "WhenOpened": "2025-03-13T02:44:28.004Z"
             }
           ]
         }
