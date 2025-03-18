@@ -1,0 +1,6 @@
+D:\github Code\C_sharp\Test\类库工程\bin\Debug\类库工程.dll
+D:\github Code\C_sharp\Test\类库工程\bin\Debug\类库工程.pdb
+D:\github Code\C_sharp\Test\类库工程\obj\Debug\类库工程.csproj.AssemblyReference.cache
+D:\github Code\C_sharp\Test\类库工程\obj\Debug\类库工程.csproj.CoreCompileInputs.cache
+D:\github Code\C_sharp\Test\类库工程\obj\Debug\类库工程.dll
+D:\github Code\C_sharp\Test\类库工程\obj\Debug\类库工程.pdb

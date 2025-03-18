@@ -1,0 +1,15 @@
+D:\github Code\C_sharp\Test\MultiThread\bin\Debug\net8.0\MultiThread.exe
+D:\github Code\C_sharp\Test\MultiThread\bin\Debug\net8.0\MultiThread.deps.json
+D:\github Code\C_sharp\Test\MultiThread\bin\Debug\net8.0\MultiThread.runtimeconfig.json
+D:\github Code\C_sharp\Test\MultiThread\bin\Debug\net8.0\MultiThread.dll
+D:\github Code\C_sharp\Test\MultiThread\bin\Debug\net8.0\MultiThread.pdb
+D:\github Code\C_sharp\Test\MultiThread\obj\Debug\net8.0\MultiThread.GeneratedMSBuildEditorConfig.editorconfig
+D:\github Code\C_sharp\Test\MultiThread\obj\Debug\net8.0\MultiThread.AssemblyInfoInputs.cache
+D:\github Code\C_sharp\Test\MultiThread\obj\Debug\net8.0\MultiThread.AssemblyInfo.cs
+D:\github Code\C_sharp\Test\MultiThread\obj\Debug\net8.0\MultiThread.csproj.CoreCompileInputs.cache
+D:\github Code\C_sharp\Test\MultiThread\obj\Debug\net8.0\MultiThread.sourcelink.json
+D:\github Code\C_sharp\Test\MultiThread\obj\Debug\net8.0\MultiThread.dll
+D:\github Code\C_sharp\Test\MultiThread\obj\Debug\net8.0\refint\MultiThread.dll
+D:\github Code\C_sharp\Test\MultiThread\obj\Debug\net8.0\MultiThread.pdb
+D:\github Code\C_sharp\Test\MultiThread\obj\Debug\net8.0\MultiThread.genruntimeconfig.cache
+D:\github Code\C_sharp\Test\MultiThread\obj\Debug\net8.0\ref\MultiThread.dll

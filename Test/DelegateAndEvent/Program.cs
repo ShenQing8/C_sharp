@@ -96,6 +96,28 @@
     }
     #endregion
 
+    #region 协变逆变
+    // 协变 out
+    // 逆变 in
+    // 用来修饰泛型替代符的，只能修饰接口和委托中的泛型
+
+    // 作用
+    // 1、out修饰的泛型类型，只能作为返回值类型，in修饰的泛型类型，只能作为参数类型
+    // 2、遵循里氏替换原则，用out和in修饰的泛型委托可以相互装载（有父子关系的泛型）
+    delegate T TestOut<out T>();
+    delegate void TestIn<in T>(T value);
+
+    class Father
+    {
+
+    }
+    class Son : Father
+    {
+
+    }
+
+    #endregion
+
     internal class Program
     {
         static void Main(string[] args)
@@ -119,6 +141,18 @@
             //{
             //    Console.WriteLine(bag[i].money);
             //}
+
+            // 协变逆变
+            TestOut<Son> os = () =>
+            {
+                return new Son();
+            };
+            TestOut<Father> of = os;
+            Father tf = of();
+
+            TestIn<Father> iF = (value) => { };
+            TestIn<Son> iS = iF;
+            iS(new Son());
         }
     }
 }

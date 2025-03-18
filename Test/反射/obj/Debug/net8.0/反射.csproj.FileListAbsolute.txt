@@ -1,0 +1,15 @@
+D:\github Code\C_sharp\Test\反射\bin\Debug\net8.0\反射.exe
+D:\github Code\C_sharp\Test\反射\bin\Debug\net8.0\反射.deps.json
+D:\github Code\C_sharp\Test\反射\bin\Debug\net8.0\反射.runtimeconfig.json
+D:\github Code\C_sharp\Test\反射\bin\Debug\net8.0\反射.dll
+D:\github Code\C_sharp\Test\反射\bin\Debug\net8.0\反射.pdb
+D:\github Code\C_sharp\Test\反射\obj\Debug\net8.0\反射.GeneratedMSBuildEditorConfig.editorconfig
+D:\github Code\C_sharp\Test\反射\obj\Debug\net8.0\反射.AssemblyInfoInputs.cache
+D:\github Code\C_sharp\Test\反射\obj\Debug\net8.0\反射.AssemblyInfo.cs
+D:\github Code\C_sharp\Test\反射\obj\Debug\net8.0\反射.csproj.CoreCompileInputs.cache
+D:\github Code\C_sharp\Test\反射\obj\Debug\net8.0\反射.sourcelink.json
+D:\github Code\C_sharp\Test\反射\obj\Debug\net8.0\反射.dll
+D:\github Code\C_sharp\Test\反射\obj\Debug\net8.0\refint\反射.dll
+D:\github Code\C_sharp\Test\反射\obj\Debug\net8.0\反射.pdb
+D:\github Code\C_sharp\Test\反射\obj\Debug\net8.0\反射.genruntimeconfig.cache
+D:\github Code\C_sharp\Test\反射\obj\Debug\net8.0\ref\反射.dll

@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\github Code\\C_sharp\\Test\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6D572D0C-97EF-409D-9492-997D705D8A9C}|\u53CD\u5C04\\\u53CD\u5C04.csproj|d:\\github code\\c_sharp\\test\\\u53CD\u5C04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D572D0C-97EF-409D-9492-997D705D8A9C}|\u53CD\u5C04\\\u53CD\u5C04.csproj|solutionrelative:\u53CD\u5C04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E5DF0A1-B1AC-44F7-B63C-1AE6B7C4551C}|\u7C7B\u5E93\u5DE5\u7A0B\\\u7C7B\u5E93\u5DE5\u7A0B.csproj|d:\\github code\\c_sharp\\test\\\u7C7B\u5E93\u5DE5\u7A0B\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E5DF0A1-B1AC-44F7-B63C-1AE6B7C4551C}|\u7C7B\u5E93\u5DE5\u7A0B\\\u7C7B\u5E93\u5DE5\u7A0B.csproj|solutionrelative:\u7C7B\u5E93\u5DE5\u7A0B\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13861E30-917C-4E0E-B2B4-A3C8208709CD}|MultiThread\\MultiThread.csproj|d:\\github code\\c_sharp\\test\\multithread\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13861E30-917C-4E0E-B2B4-A3C8208709CD}|MultiThread\\MultiThread.csproj|solutionrelative:multithread\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FC35E11E-58A3-4350-A7D2-8E28DC948DA7}|DelegateAndEvent\\DelegateAndEvent.csproj|d:\\github code\\c_sharp\\test\\delegateandevent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC35E11E-58A3-4350-A7D2-8E28DC948DA7}|DelegateAndEvent\\DelegateAndEvent.csproj|solutionrelative:delegateandevent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -24,18 +36,56 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\DelegateAndEvent\\Program.cs",
-              "RelativeDocumentMoniker": "DelegateAndEvent\\Program.cs",
-              "ToolTip": "D:\\github Code\\C_sharp\\Test\\DelegateAndEvent\\Program.cs",
-              "RelativeToolTip": "DelegateAndEvent\\Program.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAADwv14AAAAJAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\\u53CD\u5C04\\Program.cs",
+              "RelativeDocumentMoniker": "\u53CD\u5C04\\Program.cs",
+              "ToolTip": "D:\\github Code\\C_sharp\\Test\\\u53CD\u5C04\\Program.cs",
+              "RelativeToolTip": "\u53CD\u5C04\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T11:43:31.62Z",
+              "WhenOpened": "2025-03-18T09:39:27.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\\u7C7B\u5E93\u5DE5\u7A0B\\Class1.cs",
+              "RelativeDocumentMoniker": "\u7C7B\u5E93\u5DE5\u7A0B\\Class1.cs",
+              "ToolTip": "D:\\github Code\\C_sharp\\Test\\\u7C7B\u5E93\u5DE5\u7A0B\\Class1.cs",
+              "RelativeToolTip": "\u7C7B\u5E93\u5DE5\u7A0B\\Class1.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T09:39:00.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\MultiThread\\Program.cs",
+              "RelativeDocumentMoniker": "MultiThread\\Program.cs",
+              "ToolTip": "D:\\github Code\\C_sharp\\Test\\MultiThread\\Program.cs",
+              "RelativeToolTip": "MultiThread\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwBkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T03:22:39.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\DelegateAndEvent\\Program.cs",
+              "RelativeDocumentMoniker": "DelegateAndEvent\\Program.cs",
+              "ToolTip": "D:\\github Code\\C_sharp\\Test\\DelegateAndEvent\\Program.cs",
+              "RelativeToolTip": "DelegateAndEvent\\Program.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:43:31.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\\u6CDB\u578B\\Program.cs",
               "RelativeDocumentMoniker": "\u6CDB\u578B\\Program.cs",
