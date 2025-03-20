@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "类库工程", "类库工�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "反射", "反射\反射.csproj", "{6D572D0C-97EF-409D-9492-997D705D8A9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "特性", "特性\特性.csproj", "{2986FF16-13F9-4CE3-818F-4D44DCCA7EA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "迭代器", "迭代器\迭代器.csproj", "{5C050C63-005B-4799-8858-E959AD587A2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{6D572D0C-97EF-409D-9492-997D705D8A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D572D0C-97EF-409D-9492-997D705D8A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D572D0C-97EF-409D-9492-997D705D8A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2986FF16-13F9-4CE3-818F-4D44DCCA7EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2986FF16-13F9-4CE3-818F-4D44DCCA7EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2986FF16-13F9-4CE3-818F-4D44DCCA7EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2986FF16-13F9-4CE3-818F-4D44DCCA7EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C050C63-005B-4799-8858-E959AD587A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C050C63-005B-4799-8858-E959AD587A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C050C63-005B-4799-8858-E959AD587A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C050C63-005B-4799-8858-E959AD587A2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

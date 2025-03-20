@@ -7,8 +7,26 @@ using System.Threading.Tasks;
 
 namespace 类库工程
 {
+    class MyCustomAttribute : Attribute
+    {
+        public string info;
+
+        public MyCustomAttribute(string info)
+        {
+            this.info = info;
+        }
+
+        public void TestFunc()
+        {
+            Console.WriteLine("特性的方法");
+        }
+    }
+
+
     public class Player
     {
+        [Obsolete("非法操作，随意修改name的值", false)]
+        [MyCustom("为Player类中的name成员变量添加了一个特性")]
         public string name;
         public int hp;
         public int atk;

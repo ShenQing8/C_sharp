@@ -1,0 +1,15 @@
+D:\github Code\C_sharp\Test\迭代器\bin\Debug\net8.0\迭代器.exe
+D:\github Code\C_sharp\Test\迭代器\bin\Debug\net8.0\迭代器.deps.json
+D:\github Code\C_sharp\Test\迭代器\bin\Debug\net8.0\迭代器.runtimeconfig.json
+D:\github Code\C_sharp\Test\迭代器\bin\Debug\net8.0\迭代器.dll
+D:\github Code\C_sharp\Test\迭代器\bin\Debug\net8.0\迭代器.pdb
+D:\github Code\C_sharp\Test\迭代器\obj\Debug\net8.0\迭代器.GeneratedMSBuildEditorConfig.editorconfig
+D:\github Code\C_sharp\Test\迭代器\obj\Debug\net8.0\迭代器.AssemblyInfoInputs.cache
+D:\github Code\C_sharp\Test\迭代器\obj\Debug\net8.0\迭代器.AssemblyInfo.cs
+D:\github Code\C_sharp\Test\迭代器\obj\Debug\net8.0\迭代器.csproj.CoreCompileInputs.cache
+D:\github Code\C_sharp\Test\迭代器\obj\Debug\net8.0\迭代器.sourcelink.json
+D:\github Code\C_sharp\Test\迭代器\obj\Debug\net8.0\迭代器.dll
+D:\github Code\C_sharp\Test\迭代器\obj\Debug\net8.0\refint\迭代器.dll
+D:\github Code\C_sharp\Test\迭代器\obj\Debug\net8.0\迭代器.pdb
+D:\github Code\C_sharp\Test\迭代器\obj\Debug\net8.0\迭代器.genruntimeconfig.cache
+D:\github Code\C_sharp\Test\迭代器\obj\Debug\net8.0\ref\迭代器.dll

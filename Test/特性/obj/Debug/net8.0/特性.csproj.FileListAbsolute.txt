@@ -1,0 +1,15 @@
+D:\github Code\C_sharp\Test\特性\bin\Debug\net8.0\特性.exe
+D:\github Code\C_sharp\Test\特性\bin\Debug\net8.0\特性.deps.json
+D:\github Code\C_sharp\Test\特性\bin\Debug\net8.0\特性.runtimeconfig.json
+D:\github Code\C_sharp\Test\特性\bin\Debug\net8.0\特性.dll
+D:\github Code\C_sharp\Test\特性\bin\Debug\net8.0\特性.pdb
+D:\github Code\C_sharp\Test\特性\obj\Debug\net8.0\特性.GeneratedMSBuildEditorConfig.editorconfig
+D:\github Code\C_sharp\Test\特性\obj\Debug\net8.0\特性.AssemblyInfoInputs.cache
+D:\github Code\C_sharp\Test\特性\obj\Debug\net8.0\特性.AssemblyInfo.cs
+D:\github Code\C_sharp\Test\特性\obj\Debug\net8.0\特性.csproj.CoreCompileInputs.cache
+D:\github Code\C_sharp\Test\特性\obj\Debug\net8.0\特性.sourcelink.json
+D:\github Code\C_sharp\Test\特性\obj\Debug\net8.0\特性.dll
+D:\github Code\C_sharp\Test\特性\obj\Debug\net8.0\refint\特性.dll
+D:\github Code\C_sharp\Test\特性\obj\Debug\net8.0\特性.pdb
+D:\github Code\C_sharp\Test\特性\obj\Debug\net8.0\特性.genruntimeconfig.cache
+D:\github Code\C_sharp\Test\特性\obj\Debug\net8.0\ref\特性.dll

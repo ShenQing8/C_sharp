@@ -21,6 +21,7 @@
 
             while (true)
             {
+                Sweep();
                 switch (Dir)
                 {
                     case ConsoleKey.W:
@@ -50,6 +51,11 @@
             Console.ForegroundColor = ConsoleColor.Red;
             Console.SetCursorPosition(Xindex, Yindex);
             Console.Write("★");
+        }
+        static void Sweep()
+        {
+            Console.SetCursorPosition(Xindex, Yindex);
+            Console.Write("  ");
         }
         static void MoveThread()
         {

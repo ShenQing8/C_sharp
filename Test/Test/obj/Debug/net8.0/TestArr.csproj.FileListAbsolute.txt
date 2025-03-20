@@ -12,3 +12,4 @@ D:\github Code\C_sharp\Test\Test\obj\Debug\net8.0\refint\TestArr.dll
 D:\github Code\C_sharp\Test\Test\obj\Debug\net8.0\TestArr.pdb
 D:\github Code\C_sharp\Test\Test\obj\Debug\net8.0\TestArr.genruntimeconfig.cache
 D:\github Code\C_sharp\Test\Test\obj\Debug\net8.0\ref\TestArr.dll
+D:\github Code\C_sharp\Test\Test\obj\Debug\net8.0\TestArr.sourcelink.json

@@ -12,3 +12,4 @@ D:\github Code\C_sharp\Test\Function\obj\Debug\net8.0\refint\Function.dll
 D:\github Code\C_sharp\Test\Function\obj\Debug\net8.0\Function.pdb
 D:\github Code\C_sharp\Test\Function\obj\Debug\net8.0\Function.genruntimeconfig.cache
 D:\github Code\C_sharp\Test\Function\obj\Debug\net8.0\ref\Function.dll
+D:\github Code\C_sharp\Test\Function\obj\Debug\net8.0\Function.sourcelink.json
