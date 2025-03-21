@@ -1,0 +1,175 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\github Code\\C_sharp\\Tetris\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAD9641-820D-4201-AB1A-4ADE869371F1}|Game\\Game.csproj|d:\\github code\\c_sharp\\tetris\\game\\gameongoing\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAD9641-820D-4201-AB1A-4ADE869371F1}|Game\\Game.csproj|solutionrelative:game\\gameongoing\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAD9641-820D-4201-AB1A-4ADE869371F1}|Game\\Game.csproj|d:\\github code\\c_sharp\\tetris\\game\\gameongoing\\gameon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAD9641-820D-4201-AB1A-4ADE869371F1}|Game\\Game.csproj|solutionrelative:game\\gameongoing\\gameon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAD9641-820D-4201-AB1A-4ADE869371F1}|Game\\Game.csproj|d:\\github code\\c_sharp\\tetris\\game\\membersandapi\\staticmembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAD9641-820D-4201-AB1A-4ADE869371F1}|Game\\Game.csproj|solutionrelative:game\\membersandapi\\staticmembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAD9641-820D-4201-AB1A-4ADE869371F1}|Game\\Game.csproj|d:\\github code\\c_sharp\\tetris\\game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAD9641-820D-4201-AB1A-4ADE869371F1}|Game\\Game.csproj|solutionrelative:game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAD9641-820D-4201-AB1A-4ADE869371F1}|Game\\Game.csproj|d:\\github code\\c_sharp\\tetris\\game\\gameongoing\\idraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAD9641-820D-4201-AB1A-4ADE869371F1}|Game\\Game.csproj|solutionrelative:game\\gameongoing\\idraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAD9641-820D-4201-AB1A-4ADE869371F1}|Game\\Game.csproj|d:\\github code\\c_sharp\\tetris\\game\\gameongoing\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAD9641-820D-4201-AB1A-4ADE869371F1}|Game\\Game.csproj|solutionrelative:game\\gameongoing\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAD9641-820D-4201-AB1A-4ADE869371F1}|Game\\Game.csproj|d:\\github code\\c_sharp\\tetris\\game\\gameongoing\\vector2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAD9641-820D-4201-AB1A-4ADE869371F1}|Game\\Game.csproj|solutionrelative:game\\gameongoing\\vector2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAD9641-820D-4201-AB1A-4ADE869371F1}|Game\\Game.csproj|d:\\github code\\c_sharp\\tetris\\game\\gameongoing\\blockback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAD9641-820D-4201-AB1A-4ADE869371F1}|Game\\Game.csproj|solutionrelative:game\\gameongoing\\blockback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAD9641-820D-4201-AB1A-4ADE869371F1}|Game\\Game.csproj|d:\\github code\\c_sharp\\tetris\\game\\gameongoing\\blocktypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAD9641-820D-4201-AB1A-4ADE869371F1}|Game\\Game.csproj|solutionrelative:game\\gameongoing\\blocktypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StaticMembers.cs",
+              "DocumentMoniker": "D:\\github Code\\C_sharp\\Tetris\\Game\\MembersAndAPI\\StaticMembers.cs",
+              "RelativeDocumentMoniker": "Game\\MembersAndAPI\\StaticMembers.cs",
+              "ToolTip": "D:\\github Code\\C_sharp\\Tetris\\Game\\MembersAndAPI\\StaticMembers.cs",
+              "RelativeToolTip": "Game\\MembersAndAPI\\StaticMembers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T07:05:38.294Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github Code\\C_sharp\\Tetris\\Game\\Program.cs",
+              "RelativeDocumentMoniker": "Game\\Program.cs",
+              "ToolTip": "D:\\github Code\\C_sharp\\Tetris\\Game\\Program.cs",
+              "RelativeToolTip": "Game\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T06:16:15.535Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameOn.cs",
+              "DocumentMoniker": "D:\\github Code\\C_sharp\\Tetris\\Game\\GameOnGoing\\GameOn.cs",
+              "RelativeDocumentMoniker": "Game\\GameOnGoing\\GameOn.cs",
+              "ToolTip": "D:\\github Code\\C_sharp\\Tetris\\Game\\GameOnGoing\\GameOn.cs",
+              "RelativeToolTip": "Game\\GameOnGoing\\GameOn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T08:39:13.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Wall.cs",
+              "DocumentMoniker": "D:\\github Code\\C_sharp\\Tetris\\Game\\GameOnGoing\\Wall.cs",
+              "RelativeDocumentMoniker": "Game\\GameOnGoing\\Wall.cs",
+              "ToolTip": "D:\\github Code\\C_sharp\\Tetris\\Game\\GameOnGoing\\Wall.cs",
+              "RelativeToolTip": "Game\\GameOnGoing\\Wall.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T10:47:17.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BlockTypes.cs",
+              "DocumentMoniker": "D:\\github Code\\C_sharp\\Tetris\\Game\\GameOnGoing\\BlockTypes.cs",
+              "RelativeDocumentMoniker": "Game\\GameOnGoing\\BlockTypes.cs",
+              "ToolTip": "D:\\github Code\\C_sharp\\Tetris\\Game\\GameOnGoing\\BlockTypes.cs",
+              "RelativeToolTip": "Game\\GameOnGoing\\BlockTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T09:38:17.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BlockBack.cs",
+              "DocumentMoniker": "D:\\github Code\\C_sharp\\Tetris\\Game\\GameOnGoing\\BlockBack.cs",
+              "RelativeDocumentMoniker": "Game\\GameOnGoing\\BlockBack.cs",
+              "ToolTip": "D:\\github Code\\C_sharp\\Tetris\\Game\\GameOnGoing\\BlockBack.cs",
+              "RelativeToolTip": "Game\\GameOnGoing\\BlockBack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T09:35:59.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Grid.cs",
+              "DocumentMoniker": "D:\\github Code\\C_sharp\\Tetris\\Game\\GameOnGoing\\Grid.cs",
+              "RelativeDocumentMoniker": "Game\\GameOnGoing\\Grid.cs",
+              "ToolTip": "D:\\github Code\\C_sharp\\Tetris\\Game\\GameOnGoing\\Grid.cs",
+              "RelativeToolTip": "Game\\GameOnGoing\\Grid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T09:32:13.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Vector2.cs",
+              "DocumentMoniker": "D:\\github Code\\C_sharp\\Tetris\\Game\\GameOnGoing\\Vector2.cs",
+              "RelativeDocumentMoniker": "Game\\GameOnGoing\\Vector2.cs",
+              "ToolTip": "D:\\github Code\\C_sharp\\Tetris\\Game\\GameOnGoing\\Vector2.cs",
+              "RelativeToolTip": "Game\\GameOnGoing\\Vector2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T09:31:01.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDraw.cs",
+              "DocumentMoniker": "D:\\github Code\\C_sharp\\Tetris\\Game\\GameOnGoing\\IDraw.cs",
+              "RelativeDocumentMoniker": "Game\\GameOnGoing\\IDraw.cs",
+              "ToolTip": "D:\\github Code\\C_sharp\\Tetris\\Game\\GameOnGoing\\IDraw.cs",
+              "RelativeToolTip": "Game\\GameOnGoing\\IDraw.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T08:38:50.811Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
