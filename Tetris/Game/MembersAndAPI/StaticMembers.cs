@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Game.GameOnGoing;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -52,15 +53,40 @@ namespace Game
         Shape = '■'
     }
 
+    /// <summary>
+    /// 移动枚举
+    /// </summary>
+    enum E_Move
+    {
+        /// <summary>
+        /// 左
+        /// </summary>
+        Left,
+        /// <summary>
+        /// 右
+        /// </summary>
+        Right,
+        /// <summary>
+        /// 旋转
+        /// </summary>
+        Reverse,
+        /// <summary>
+        /// 下落
+        /// </summary>
+        Down
+    }
+
     class StaticMembers
     {
         // 窗口宽高
-        static public int LENGTH = 42;
+        static public int LENGTH = 42;// 必须要是偶数
         static public int WIDTH = 32;// 一行空出来，一行留给墙
         // 游戏场景基类
         static public Program program = new Program();
         static public GameOn gameon = new GameOn();
         // 28种block情况
         static public BlockTypes blockTypes = new BlockTypes();
+        // 场景地图
+        static public Map map = new Map();
     }
 }

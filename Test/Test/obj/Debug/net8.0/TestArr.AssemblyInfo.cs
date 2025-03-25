@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestArr")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb309d61e072c81dd94a78b582065677f082450d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8043ad2320aa9986efbbfe62cd26f9c91f2a5c18")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestArr")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestArr")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
