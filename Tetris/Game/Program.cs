@@ -63,8 +63,8 @@ namespace Game
         static void Main(string[] args)
         {
             // 设置窗口大小
-            Console.SetWindowSize(LENGTH, WIDTH);
-            Console.SetBufferSize(LENGTH, WIDTH);
+            Console.SetWindowSize(LENGTH, WIDTH_BUFFER);
+            Console.SetBufferSize(LENGTH, WIDTH_BUFFER);
             // 设置背景颜色
             Console.BackgroundColor = ConsoleColor.Black;
             Console.Clear();

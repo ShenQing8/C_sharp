@@ -4,12 +4,16 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
+using static Game.StaticMembers;
+
 
 namespace Game
 {
     class GameOn
     {
         private ConsoleKey a;
+        private int down_speed = 300;
+        private bool isRuninig = true;
 
         public void GameOnGoing()
         {
@@ -18,51 +22,61 @@ namespace Game
             Wall wall = new Wall();
             wall.Draw();
             // 生成新方块并绘制
-            Block block = new Block();
             block.Draw();
 
-            // 读取键盘操作
             // 开新线程用来方块移动
             Thread move_thread = new Thread(MoveThread);
             move_thread.IsBackground = true;
             move_thread.Start();
 
-            // 正常下落速度 0.5秒
-            int down_speed = 500;
             while (true)
             {
-                switch (a)
+
+                if (Console.KeyAvailable)
                 {
-                    case ConsoleKey.A:
-                        block.MoveAction(E_Move.Left);
-                        break;
-                    case ConsoleKey.D:
-                        block.MoveAction(E_Move.Right);
-                        break;
-                    case ConsoleKey.Spacebar:
-                        block.MoveAction(E_Move.Reverse);
-                        break;
-                    case ConsoleKey.S:
-                        down_speed = 200;
-                        break;
-                    //default:
-                    //    a = ConsoleKey.W;
-                    //    break;
+                    lock (block)
+                    {
+                        a = Console.ReadKey(true).Key;
+                        switch (a)
+                        {
+                            case ConsoleKey.A:
+                                block.MoveAction(E_Move.Left);
+                                break;
+                            case ConsoleKey.D:
+                                block.MoveAction(E_Move.Right);
+                                break;
+                            case ConsoleKey.Spacebar:
+                                block.MoveAction(E_Move.Reverse);
+                                break;
+                            case ConsoleKey.S:
+                                block.MoveAction(E_Move.Down);
+                                if (block.Refresh())
+                                {
+
+                                    program.GameOpenEnd(E_GameSences.End);
+                                }
+                                break;
+                        }
+                    }
                 }
-                a = ConsoleKey.W;
-                block.MoveAction(E_Move.Down);
-                block.Refresh();
-                Thread.Sleep(down_speed);
-                down_speed = 500;
             }
         }
 
+        //private void ThreadEnd()
+        //{
+        //    isRuninig = false;
+        //}
+
         public void MoveThread()
         {
-
-            while (true)
+            while (isRuninig)
             {
-                a = Console.ReadKey(true).Key;
+                lock (block)
+                {
+                    block.MoveAction(E_Move.Down);
+                    block.Refresh();
+                }
+                Thread.Sleep(down_speed);
             }
         }
     }

@@ -81,6 +81,7 @@ namespace Game
         // 窗口宽高
         static public int LENGTH = 42;// 必须要是偶数
         static public int WIDTH = 32;// 一行空出来，一行留给墙
+        static public int WIDTH_BUFFER = WIDTH + 1;
         // 游戏场景基类
         static public Program program = new Program();
         static public GameOn gameon = new GameOn();
@@ -88,5 +89,7 @@ namespace Game
         static public BlockTypes blockTypes = new BlockTypes();
         // 场景地图
         static public Map map = new Map();
+        // 生成的方块
+        static public Block block = new Block();
     }
 }

@@ -6,8 +6,6 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using static Game.StaticMembers;
-// 移动、旋转可以把这两个行为放到事件中，定位public
-// 一旦外部进行这两个行为，直接调用事件，移动/旋转和绘制依次进行
 
 namespace Game
 {
@@ -41,13 +39,20 @@ namespace Game
         // 随机生成一个方块
         private void NewBlock()
         {
+            /*第一种概率设计*/
             // 7种初始情况，其中I型和方块型的生成概率是其他types的1/2
-            int n = random.Next(0, 72);
-            int k = 0;
-            if (n < 60)
-                k = n / 12;
-            else
-                k = (n + 6) / 12;
+            //int n = random.Next(0, 72);
+            //int k = 0;
+            //if (n < 60)
+            //    k = n / 12;
+            //else
+            //    k = (n + 6) / 12;
+            //for (int i = 0; i < 4; ++i)
+            //    nowblock[i] = blockTypes.blocktypes[k, i];
+            /*第二种概率设计*/
+            // 7种情况的概率相同
+            int n = random.Next(0, 70);
+            int k = n / 10;
             for (int i = 0; i < 4; ++i)
                 nowblock[i] = blockTypes.blocktypes[k, i];
         }
@@ -75,8 +80,8 @@ namespace Game
                     break;
             }
 
-            if (position.x >= 2 && position.x < LENGTH - 8)
-                return;
+            //if (position.x >= 2 && position.x < LENGTH - 8)
+            //    return;
 
 
             for (int i = 0; i < 4; ++i)
@@ -113,30 +118,40 @@ namespace Game
         }
 
         // 方块落下，更新方块
-        public void Refresh()
+        public bool Refresh()
         {
-            if (IsLanding())
+            for (int k = 0; k < map.map_width - 1; ++k)
             {
-                for (int i = 0; i < 4; ++ i)
+                if (IsLanding())
                 {
-                    for (int j = 0; j < 4; ++j)
+                    for (int i = 0; i < 4; ++i)
                     {
-                        if (nowblock[nowblock_index].isGrid[i, j])
+                        for (int j = 0; j < 4; ++j)
                         {
-                            map.mapinfo[position.y + i, position.x / 2 + j] = true;
+                            if (nowblock[nowblock_index].isGrid[i, j])
+                            {
+                                map.mapinfo[position.y + i, position.x / 2 + j] = true;
+                            }
                         }
                     }
+                    map.Draw();
+                    Thread.Sleep(100);
+                    if (map.IsDefeat())
+                    {
+                        return true;
+
+                    }
+                    map.RemoveLine();
+                    map.Draw();
+                    // 生成新方块
+                    position.x = LENGTH / 2 - 3;
+                    position.y = 0;
+                    nowblock_index = 0;
+                    NewBlock();
                 }
-                map.Draw();
-                Thread.Sleep(100);
-                map.IsDefeat();
-                map.RemoveLine();
-                map.Draw();
-                position.x = LENGTH / 2 - 3;
-                position.y = 0;
-                nowblock_index = 0;
-                NewBlock();
             }
+            return false;
+
         }
 
         private void Sweep(E_Move move)

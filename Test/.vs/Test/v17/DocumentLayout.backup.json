@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\github Code\\C_sharp\\Test\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DA00C13E-69D5-4C04-B4CE-EA0D89030679}|Function\\Function.csproj|d:\\github code\\c_sharp\\test\\function\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA00C13E-69D5-4C04-B4CE-EA0D89030679}|Function\\Function.csproj|solutionrelative:function\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FC35E11E-58A3-4350-A7D2-8E28DC948DA7}|DelegateAndEvent\\DelegateAndEvent.csproj|d:\\github code\\c_sharp\\test\\delegateandevent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC35E11E-58A3-4350-A7D2-8E28DC948DA7}|DelegateAndEvent\\DelegateAndEvent.csproj|solutionrelative:delegateandevent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\Function\\Program.cs",
+              "RelativeDocumentMoniker": "Function\\Program.cs",
+              "ToolTip": "D:\\github Code\\C_sharp\\Test\\Function\\Program.cs*",
+              "RelativeToolTip": "Function\\Program.cs*",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T11:46:59.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\\u8FED\u4EE3\u5668\\Program.cs",
               "RelativeDocumentMoniker": "\u8FED\u4EE3\u5668\\Program.cs",
@@ -46,12 +63,11 @@
               "RelativeToolTip": "\u8FED\u4EE3\u5668\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T09:29:30.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T09:29:30.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\\u7279\u6027\\Program.cs",
               "RelativeDocumentMoniker": "\u7279\u6027\\Program.cs",
@@ -63,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\\u53CD\u5C04\\Program.cs",
               "RelativeDocumentMoniker": "\u53CD\u5C04\\Program.cs",
@@ -75,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\\u7C7B\u5E93\u5DE5\u7A0B\\Class1.cs",
               "RelativeDocumentMoniker": "\u7C7B\u5E93\u5DE5\u7A0B\\Class1.cs",
@@ -87,20 +103,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\DelegateAndEvent\\Program.cs",
               "RelativeDocumentMoniker": "DelegateAndEvent\\Program.cs",
               "ToolTip": "D:\\github Code\\C_sharp\\Test\\DelegateAndEvent\\Program.cs",
               "RelativeToolTip": "DelegateAndEvent\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T11:43:31.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\github Code\\C_sharp\\Test\\\u6CDB\u578B\\Program.cs",
               "RelativeDocumentMoniker": "\u6CDB\u578B\\Program.cs",

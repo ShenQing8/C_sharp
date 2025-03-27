@@ -10,8 +10,8 @@ namespace Game.GameOnGoing
     class Map : IDraw
     {
         public bool[,] mapinfo;
-        private int map_length;
-        private int map_width;
+        public int map_length;
+        public int map_width;
 
         public Map()
         {
@@ -40,6 +40,7 @@ namespace Game.GameOnGoing
                     for (int k = 1; k <= map_length; ++k)
                         mapinfo[i, k] = false;
                     DownLine(i);
+                    ++i;
                 }
             }
         }
@@ -57,13 +58,16 @@ namespace Game.GameOnGoing
         }
 
         // 判断是否失败
-        public void IsDefeat()
+        public bool IsDefeat()
         {
             for (int j = 1; j <= map_length; ++j)
             {
                 if (mapinfo[1, j] == true)
-                    program.GameOpenEnd(E_GameSences.End);
+                {
+                    return true;
+                }
             }
+            return false;
         }
 
         public void Draw()

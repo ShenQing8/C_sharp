@@ -16,24 +16,44 @@ namespace Function
         
         }
 
-        static void Rd_test()
+        static void RandomNum_test()
         {
             Random rd = new Random();
             for(int i = 0; i < 20; ++i)
             {
                 Console.Write($"{rd.Next(1, 7)} ");
             }
-
         }
+
+        static void Switch_test()
+        {
+            int a;
+
+            while (true)
+            {
+                a = int.Parse(Console.ReadLine());
+                switch (a)
+                {
+                    case 1:
+                        break;
+                    case 0:
+                        break;
+                    // 总结：下面两行没用
+                    default:
+                        continue;
+                }
+            }
+        }
+
         static void Main(string[] args)
         {
             // TestButtn();
-            Rd_test();
+            //RandomNum_test();
             //switch (Console.ReadKey(true).Key)
             //{
             //    ‖
             //}
-
+            Switch_test();
         }
     }
 }
