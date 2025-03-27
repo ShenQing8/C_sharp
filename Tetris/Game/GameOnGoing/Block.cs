@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Game.GameOnGoing;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -14,15 +15,15 @@ namespace Game
         private Vector2 position;
         private BlockBack[] nowblock;
         private int nowblock_index;
-        private int preblock_index;
-        private Random random = new Random();
+        private Random random;
         private event Action<E_Move> move_action;
 
 
         public Block()
         {
+            random = new Random();
             position.x = LENGTH / 2 - 3;
-            position.y = 0;
+            position.y = -1;
             nowblock = new BlockBack[4];
             nowblock_index = 0;
             NewBlock();
@@ -100,7 +101,7 @@ namespace Game
         }
 
         // 判断方块是否落地
-        private bool IsLanding()
+        private bool IsLanding(Map map)
         {
             // 落到最低点或落在其他方块上
             for (int i = 3; i > -1; --i)
@@ -118,11 +119,11 @@ namespace Game
         }
 
         // 方块落下，更新方块
-        public bool Refresh()
+        public void Refresh(Map map)
         {
             for (int k = 0; k < map.map_width - 1; ++k)
             {
-                if (IsLanding())
+                if (IsLanding(map))
                 {
                     for (int i = 0; i < 4; ++i)
                     {
@@ -136,11 +137,7 @@ namespace Game
                     }
                     map.Draw();
                     Thread.Sleep(100);
-                    if (map.IsDefeat())
-                    {
-                        return true;
-
-                    }
+                    map.IsDefeat();
                     map.RemoveLine();
                     map.Draw();
                     // 生成新方块
@@ -150,7 +147,6 @@ namespace Game
                     NewBlock();
                 }
             }
-            return false;
 
         }
 
@@ -161,7 +157,7 @@ namespace Game
             {
                 for (int j = 0; j < 4; ++j)
                 {
-                    if (nowblock[nowblock_index].isGrid[i, j])
+                    if (nowblock[nowblock_index].isGrid[i, j] && position.y + i > 0)
                     {
                         Console.SetCursorPosition(position.x + j * 2, position.y + i);
                         Console.Write("  ");
@@ -174,11 +170,11 @@ namespace Game
         public void Draw()
         {
             Console.ForegroundColor = (ConsoleColor)E_GridColor.Fallen;
-            for (int i = 0; i < 4; ++i)
+            for (int i = 3; i >-1; --i)
             {
                 for (int j = 0; j < 4; ++j)
                 {
-                    if (nowblock[nowblock_index].isGrid[i, j])
+                    if (nowblock[nowblock_index].isGrid[i, j] && position.y + i > 0)
                     {
                         Console.SetCursorPosition(position.x + j * 2, position.y + i);
                         Console.Write((char)E_GridShape.Shape);

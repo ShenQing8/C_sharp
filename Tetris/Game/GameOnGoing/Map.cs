@@ -12,12 +12,14 @@ namespace Game.GameOnGoing
         public bool[,] mapinfo;
         public int map_length;
         public int map_width;
+        public GameOn gameon;
 
-        public Map()
+        public Map(GameOn gameon)
         {
             map_length = LENGTH / 2 - 2;
             map_width = WIDTH - 1;
             mapinfo = new bool[WIDTH, LENGTH / 2];
+            this.gameon = gameon;
         }
 
         // 消除一行
@@ -58,16 +60,15 @@ namespace Game.GameOnGoing
         }
 
         // 判断是否失败
-        public bool IsDefeat()
+        public void IsDefeat()
         {
             for (int j = 1; j <= map_length; ++j)
             {
                 if (mapinfo[1, j] == true)
                 {
-                    return true;
+                    gameon.ThreadEnd();
                 }
             }
-            return false;
         }
 
         public void Draw()

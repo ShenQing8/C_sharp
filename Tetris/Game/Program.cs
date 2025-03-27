@@ -47,7 +47,10 @@ namespace Game
                     case ConsoleKey.Enter:
                         // 开始游戏
                         if (m && sences == E_GameSences.Open)
+                        {
+                            GameOn gameon = new GameOn();
                             gameon.GameOnGoing();
+                        }
                         else if (m && sences == E_GameSences.End)
                             program.GameOpenEnd(E_GameSences.Open);
                         else
