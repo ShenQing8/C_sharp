@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\github Code\\C_sharp\\Snake\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07CBD35E-BCFD-4242-9F0D-4D6C3593D505}|Game\\Game.csproj|d:\\github code\\c_sharp\\snake\\game\\gameondoing\\gameon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07CBD35E-BCFD-4242-9F0D-4D6C3593D505}|Game\\Game.csproj|solutionrelative:game\\gameondoing\\gameon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07CBD35E-BCFD-4242-9F0D-4D6C3593D505}|Game\\Game.csproj|d:\\github code\\c_sharp\\snake\\game\\ui\\staticmembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CBD35E-BCFD-4242-9F0D-4D6C3593D505}|Game\\Game.csproj|solutionrelative:game\\ui\\staticmembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07CBD35E-BCFD-4242-9F0D-4D6C3593D505}|Game\\Game.csproj|d:\\github code\\c_sharp\\snake\\game\\gameondoing\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07CBD35E-BCFD-4242-9F0D-4D6C3593D505}|Game\\Game.csproj|solutionrelative:game\\gameondoing\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07CBD35E-BCFD-4242-9F0D-4D6C3593D505}|Game\\Game.csproj|d:\\github code\\c_sharp\\snake\\game\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07CBD35E-BCFD-4242-9F0D-4D6C3593D505}|Game\\Game.csproj|solutionrelative:game\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07CBD35E-BCFD-4242-9F0D-4D6C3593D505}|Game\\Game.csproj|d:\\github code\\c_sharp\\snake\\game\\gameondoing\\gameon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CBD35E-BCFD-4242-9F0D-4D6C3593D505}|Game\\Game.csproj|solutionrelative:game\\gameondoing\\gameon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07CBD35E-BCFD-4242-9F0D-4D6C3593D505}|Game\\Game.csproj|d:\\github code\\c_sharp\\snake\\game\\ui\\staticmembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07CBD35E-BCFD-4242-9F0D-4D6C3593D505}|Game\\Game.csproj|solutionrelative:game\\ui\\staticmembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07CBD35E-BCFD-4242-9F0D-4D6C3593D505}|Game\\Game.csproj|d:\\github code\\c_sharp\\snake\\game\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CBD35E-BCFD-4242-9F0D-4D6C3593D505}|Game\\Game.csproj|solutionrelative:game\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07CBD35E-BCFD-4242-9F0D-4D6C3593D505}|Game\\Game.csproj|d:\\github code\\c_sharp\\snake\\game\\gameondoing\\basebeginandendsences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "StaticMembers.cs",
               "DocumentMoniker": "D:\\github Code\\C_sharp\\Snake\\Game\\UI\\StaticMembers.cs",
               "RelativeDocumentMoniker": "Game\\UI\\StaticMembers.cs",
               "ToolTip": "D:\\github Code\\C_sharp\\Snake\\Game\\UI\\StaticMembers.cs",
               "RelativeToolTip": "Game\\UI\\StaticMembers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T06:33:22.447Z",
               "IsPinned": true,
@@ -60,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\github Code\\C_sharp\\Snake\\Game\\UI\\Program.cs",
               "RelativeDocumentMoniker": "Game\\UI\\Program.cs",
@@ -69,8 +69,7 @@
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T05:16:00.074Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -80,20 +79,20 @@
               "RelativeDocumentMoniker": "Game\\GameOnDoing\\GameObject.cs",
               "ToolTip": "D:\\github Code\\C_sharp\\Snake\\Game\\GameOnDoing\\GameObject.cs",
               "RelativeToolTip": "Game\\GameOnDoing\\GameObject.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAABAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAABAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T06:20:53.053Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GameOn.cs",
               "DocumentMoniker": "D:\\github Code\\C_sharp\\Snake\\Game\\GameOnDoing\\GameOn.cs",
               "RelativeDocumentMoniker": "Game\\GameOnDoing\\GameOn.cs",
               "ToolTip": "D:\\github Code\\C_sharp\\Snake\\Game\\GameOnDoing\\GameOn.cs",
               "RelativeToolTip": "Game\\GameOnDoing\\GameOn.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA4AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T06:30:23.559Z",
               "EditorCaption": ""
@@ -108,8 +107,7 @@
               "RelativeToolTip": "Game\\GameOnDoing\\IRefresh.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T06:10:38.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T06:10:38.493Z"
             },
             {
               "$type": "Document",
@@ -121,8 +119,7 @@
               "RelativeToolTip": "Game\\GameOnDoing\\IDisplay.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T05:28:37.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T05:28:37.815Z"
             },
             {
               "$type": "Document",
@@ -134,8 +131,7 @@
               "RelativeToolTip": "Game\\GameOnDoing\\IMove.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T07:17:49.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T07:17:49.87Z"
             },
             {
               "$type": "Document",
@@ -147,8 +143,7 @@
               "RelativeToolTip": "Game\\GameOnDoing\\BaseBeginAndEndSences.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T09:23:02.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T09:23:02.583Z"
             }
           ]
         }

@@ -45,7 +45,7 @@ namespace Game
         /// <summary>
         /// 食物
         /// </summary>
-        Food = '⭕'
+        Food = '●'
     }
 
     /// <summary>
